@@ -3,7 +3,6 @@ import 'package:business_app/controller/app_controller.dart';
 import 'package:business_app/view/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,29 +27,34 @@ class MyApp extends StatelessWidget {
         secondaryHeaderColor: const Color.fromRGBO(106, 251, 146, 1),
         cardColor: const Color.fromRGBO(102, 255, 0, 1),
         useMaterial3: true,
-        textTheme: TextTheme(
-          displaySmall: GoogleFonts.notoNastaliqUrdu(
+        textTheme: const TextTheme(
+          displaySmall: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white,
+            fontFamily: 'NotoNastaliqUrdu',
             fontSize: 12,
           ),
-          displayMedium: GoogleFonts.notoNastaliqUrdu(
+          displayMedium: TextStyle(
+            fontFamily: 'NotoNastaliqUrdu',
             fontWeight: FontWeight.bold,
             color: Colors.white,
             fontSize: 16,
           ),
-          bodySmall: GoogleFonts.notoNastaliqUrdu(
-            color: const Color.fromRGBO(106, 251, 146, 1),
+          bodySmall: TextStyle(
+            fontFamily: 'NotoNastaliqUrdu',
+            color: Color.fromRGBO(106, 251, 146, 1),
             fontSize: 12,
             fontWeight: FontWeight.w500,
           ),
-          bodyMedium: GoogleFonts.notoNastaliqUrdu(
-            color: const Color.fromRGBO(106, 251, 146, 1),
+          bodyMedium: TextStyle(
+            color: Color.fromRGBO(106, 251, 146, 1),
+            fontFamily: 'NotoNastaliqUrdu',
             fontSize: 16,
             fontWeight: FontWeight.w500,
           ),
-          titleMedium: GoogleFonts.notoNastaliqUrdu(
-            color: const Color.fromRGBO(0, 37, 0, 1),
+          titleMedium: TextStyle(
+            color: Color.fromRGBO(0, 37, 0, 1),
+            fontFamily: 'NotoNastaliqUrdu',
             fontSize: 16,
             fontWeight: FontWeight.w700,
           ),

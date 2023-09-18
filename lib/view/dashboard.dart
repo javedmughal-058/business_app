@@ -1,9 +1,9 @@
 import 'package:business_app/constant/helper.dart';
+import 'package:business_app/constant/widgets/custom_button.dart';
+import 'package:business_app/constant/widgets/custom_checkbox.dart';
+import 'package:business_app/constant/widgets/custom_textfield.dart';
 import 'package:business_app/controller/app_controller.dart';
-import 'package:business_app/utils/header_widget.dart';
-import 'package:business_app/utils/widgets/custom_button.dart';
-import 'package:business_app/utils/widgets/custom_checkbox.dart';
-import 'package:business_app/utils/widgets/custom_textfield.dart';
+import 'package:business_app/utils/header_bar.dart';
 import 'package:business_app/view/next_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
